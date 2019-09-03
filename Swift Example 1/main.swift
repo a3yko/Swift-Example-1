@@ -22,7 +22,7 @@ let integral:Character = "\u{222B}"
 let greeting = "Hello"
 var name = "Karen"
 var force = mass*acceleration
-var age = 0
+var age:Int = 0
 
 if(sample1 == sample2){
     print("Sample1 and Sample2 are equal")
@@ -70,8 +70,9 @@ print(integral,"is an integral")
 for i in 5...10 {
     print("i = ",i)
 }
-while (age < 6){
-    print("age = ", age+=1)
+while (age <= 6){
+    print("age = ",age)
+    age+=1
 }
 print (greeting,",",name)
 
